@@ -12,7 +12,7 @@ public class LoginPage {
 	private By userNameField = By.name("username");
 	private By userpswField = By.cssSelector("input[type='password']");
 	private By loginbutton = By.xpath("//button[text()=' Login ']");
-	private By errorMessage = By.xpath("//p[text()='invalid credentials']");
+	private By errorMessage = By.xpath("//p[text()='Invalid credentials']");
 
 	// initializing the Actiondriver object by passing weDriver instance
 	public LoginPage(WebDriver driver) {
@@ -37,7 +37,7 @@ public class LoginPage {
 	}
 
 	// verify if error is displayed
-	public void verifyErrorMessage() {
-		actionDriver.compareText(errorMessage, getErrorMessageText());
+	public boolean verifyErrorMessage(String expectedError) {
+		return actionDriver.compareText(errorMessage, expectedError);
 	}
 }

@@ -48,19 +48,21 @@ public class ActionDriver {
 	}
 
 	// method to compare two text
-	public void compareText(By by, String expectedText) {
+	public boolean compareText(By by, String expectedText) {
 		try {
 			waitForElementToBeVisible(by);
 			String actualText = driver.findElement(by).getText();
 			if (expectedText.equals(actualText)) {
 				System.out.println("text are Matching:" + actualText + "equls" + actualText);
+				return true;
 			} else {
 				System.out.println("text are not Matching:" + actualText + "not equls" + actualText);
+				return false;
 			}
 		} catch (Exception e) {
 			System.out.println("unable to compare texts:" + e.getMessage());
 		}
-
+		return false;
 	}
 
 	// Method to get text from an input field

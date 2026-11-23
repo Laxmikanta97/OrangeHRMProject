@@ -4,6 +4,8 @@
 	<test name="OrangeHRMTest">
 		<classes>
 			<class name="com.orangehrm.test.TestClass"></class>
+			<class name="com.orangehrm.test.TestClass2"></class>
+			<class name="com.orangehrm.test.LoginPageTest"></class>
 
 		</classes>
 	</test>

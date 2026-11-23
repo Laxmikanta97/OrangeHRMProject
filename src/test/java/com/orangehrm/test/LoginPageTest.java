@@ -2,7 +2,6 @@ package com.orangehrm.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.orangehrm.base.BaseClass;
@@ -22,9 +21,18 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyValidLogintest() {
-		loginPage.login("admin", "admin123");
+		loginPage.login("Admin", "admin123");
 		Assert.assertTrue(homePage.isAdminTabvisible(), "Admin tab should be visible after succesfull login");
 		homePage.logout();
 		staticWait(2);
+	}
+	
+	@Test
+	public void inValidLoginTest()
+	{
+		loginPage.login("admin", "admin464");
+		String expectedErrorMsg = "Invalid credentials";
+		Assert.assertTrue(loginPage.verifyErrorMessage(expectedErrorMsg), "Invalid error message");
+		
 	}
 }
