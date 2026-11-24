@@ -1,0 +1,37 @@
+2026-11-24 11:47:04 [main] INFO  BaseClass - config.properties file loaded
+2026-11-24 11:47:06 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 11:47:12 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 11:47:12 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 11:47:12 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 11:47:12 [main] WARN  BaseClass - This is a warm message
+2026-11-24 11:47:12 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:47:12 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 11:47:12 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:47:12 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:49:13 [main] INFO  BaseClass - config.properties file loaded
+2026-11-24 11:49:15 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 11:49:20 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 11:49:20 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 11:49:20 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 11:49:20 [main] WARN  BaseClass - This is a warm message
+2026-11-24 11:49:20 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:49:20 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 11:49:20 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:49:20 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:50:21 [main] INFO  ActionDriver - Entered text:admin
+2026-11-24 11:51:21 [main] INFO  ActionDriver - Entered text:admin464
+2026-11-24 11:51:21 [main] INFO  ActionDriver - clicked an element
+2026-11-24 11:52:22 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 11:52:23 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 11:52:28 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 11:52:28 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 11:52:28 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 11:52:28 [main] WARN  BaseClass - This is a warm message
+2026-11-24 11:52:28 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:52:28 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 11:52:28 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:52:28 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 11:53:28 [main] INFO  ActionDriver - Entered text:Admin
+2026-11-24 11:54:28 [main] INFO  ActionDriver - Entered text:admin123
+2026-11-24 11:54:28 [main] INFO  ActionDriver - clicked an element
+2026-11-24 11:57:56 [main] INFO  BaseClass - WebDriver instance is closed
