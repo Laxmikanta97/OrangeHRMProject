@@ -35,3 +35,89 @@
 2026-11-24 11:54:28 [main] INFO  ActionDriver - Entered text:admin123
 2026-11-24 11:54:28 [main] INFO  ActionDriver - clicked an element
 2026-11-24 11:57:56 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 13:35:12 [main] INFO  BaseClass - config.properties file loaded
+2026-11-24 13:35:15 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 13:35:21 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 13:35:21 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 13:35:21 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 13:35:21 [main] WARN  BaseClass - This is a warm message
+2026-11-24 13:35:21 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:35:21 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 13:35:21 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:35:21 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:36:21 [main] INFO  ActionDriver - Entered text on Element with name: username-->admin
+2026-11-24 13:37:21 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin464
+2026-11-24 13:37:23 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 13:38:24 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 13:38:25 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 13:38:30 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 13:38:30 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 13:38:30 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 13:38:30 [main] WARN  BaseClass - This is a warm message
+2026-11-24 13:38:30 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:38:30 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 13:38:30 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:38:30 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 13:39:30 [main] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-11-24 13:40:30 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-11-24 13:40:30 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 13:41:31 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2026-11-24 13:44:19 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 14:37:23 [main] INFO  BaseClass - config.properties file loaded
+2026-11-24 14:37:25 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 14:37:31 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 14:37:31 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 14:37:31 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 14:37:31 [main] WARN  BaseClass - This is a warm message
+2026-11-24 14:37:31 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:37:31 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 14:37:31 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:38:01 [main] INFO  ActionDriver - Entered text on Element with name: username-->admin
+2026-11-24 14:38:32 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin464
+2026-11-24 14:38:32 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 14:39:02 [main] INFO  ActionDriver - text are Matching:Invalid credentialsequlsInvalid credentials
+2026-11-24 14:39:02 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 14:39:03 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 14:39:10 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 14:39:10 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 14:39:10 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 14:39:10 [main] WARN  BaseClass - This is a warm message
+2026-11-24 14:39:10 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:39:10 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 14:39:10 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:39:40 [main] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-11-24 14:40:10 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-11-24 14:40:10 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 14:40:40 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2026-11-24 14:40:41 [main] INFO  ActionDriver - clicked an element-->Element with text: John Doe
+2026-11-24 14:40:41 [main] INFO  ActionDriver - clicked an element-->Element with text: Logout
+2026-11-24 14:40:44 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 14:50:49 [main] INFO  BaseClass - config.properties file loaded
+2026-11-24 14:50:51 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 14:50:56 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 14:50:56 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 14:50:56 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 14:50:56 [main] WARN  BaseClass - This is a warm message
+2026-11-24 14:50:56 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:50:56 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 14:50:56 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:51:27 [main] INFO  ActionDriver - Entered text on Element with name: username-->admin
+2026-11-24 14:51:57 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin464
+2026-11-24 14:51:57 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 14:52:27 [main] INFO  ActionDriver - text are Matching:Invalid credentialsequlsInvalid credentials
+2026-11-24 14:52:28 [main] INFO  BaseClass - WebDriver instance is closed
+2026-11-24 14:52:29 [main] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-24 14:52:35 [main] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-24 14:52:35 [main] TRACE BaseClass - This is a Trace message
+2026-11-24 14:52:35 [main] DEBUG BaseClass - This is a debug message
+2026-11-24 14:52:35 [main] WARN  BaseClass - This is a warm message
+2026-11-24 14:52:35 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:52:35 [main] INFO  BaseClass - ActionDriver instance is created.
+2026-11-24 14:52:35 [main] INFO  ActionDriver - WebDriver Instance is created
+2026-11-24 14:53:06 [main] INFO  ActionDriver - Entered text on Element with name: username-->Admin
+2026-11-24 14:53:36 [main] INFO  ActionDriver - Entered text on Element with name: password-->admin123
+2026-11-24 14:53:36 [main] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-24 14:54:06 [main] INFO  ActionDriver - Element is displayed Element with text: Admin
+2026-11-24 14:54:06 [main] INFO  ActionDriver - clicked an element-->Element with text: John Doe
+2026-11-24 14:54:07 [main] INFO  ActionDriver - clicked an element-->Element located using: By.xpath: //a[text()='Logout']
+2026-11-24 14:54:09 [main] INFO  BaseClass - WebDriver instance is closed

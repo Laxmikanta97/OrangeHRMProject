@@ -27,9 +27,10 @@ public class BaseClass {
 	// load the congif file
 	@BeforeSuite
 	public void loadConfig() throws IOException {
-
+		// Load the configuration file
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
+		FileInputStream fis = new FileInputStream(
+				System.getProperty("user.dir") + "/src/main/resources/config.properties");
 		prop.load(fis);
 		logger.info("config.properties file loaded");
 	}
@@ -50,7 +51,7 @@ public class BaseClass {
 		// intialise the actiondriver only once
 
 		if (actionDriver == null) {
-			actionDriver = new ActionDriver(driver);
+			actionDriver = new ActionDriver(getDriver());
 			logger.info("ActionDriver instance is created.");
 		}
 	}

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.base.BaseClass;
 
 public class LoginPage {
 	private ActionDriver actionDriver;
@@ -17,7 +18,7 @@ public class LoginPage {
 	// initializing the Actiondriver object by passing weDriver instance
 	public LoginPage(WebDriver driver)
 	{
-		this.actionDriver = new ActionDriver(driver);
+		this.actionDriver = BaseClass.getActionDriver();
 	}
 
 	// method to perform login

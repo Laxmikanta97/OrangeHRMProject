@@ -27,10 +27,11 @@ public class ActionDriver {
 
 	// methos to click element
 	public void click(By by) {
+		String elementDescription = getElementDescription(by);
 		try {
 			waitForElementToBeClickable(by);
 			driver.findElement(by).click();
-			logger.info("clicked an element");
+			logger.info("clicked an element-->" + elementDescription);
 		} catch (Exception e) {
 			logger.error("unable to click element" + e.getMessage());
 		}
@@ -40,12 +41,10 @@ public class ActionDriver {
 	public void enterText(By by, String value) {
 		try {
 			waitForElementToBeVisible(by);
-			// driver.findElement(by).clear();
-			// driver.findElement(by).sendKeys(value);
 			WebElement element = driver.findElement(by);
 			element.clear();
 			element.sendKeys(value);
-			logger.info("Entered text:" + value);
+			logger.info("Entered text on " + getElementDescription(by) + "-->" + value);
 		} catch (Exception e) {
 			logger.error("unable to enter the value" + e.getMessage());
 		}
@@ -84,6 +83,7 @@ public class ActionDriver {
 	public boolean isDisplayed(By by) {
 		try {
 			waitForElementToBeVisible(by);
+			logger.info("Element is displayed " + getElementDescription(by));
 			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
 			logger.error("element is not displayed; " + e.getMessage());
@@ -92,16 +92,6 @@ public class ActionDriver {
 
 	}
 
-	/*
-	 * public boolean isDisplayed(By by) { try { waitForElementToBeVisible(by);
-	 * boolean isDisplayed = driver.findElement(by).isDisplayed(); if (isDisplayed)
-	 * { System.out.println("element is visible"); return isDisplayed; } else {
-	 * return isDisplayed; } } catch (Exception e) {
-	 * System.out.println("element is not displayed:" + e.getMessage()); return
-	 * false; }
-	 * 
-	 * }
-	 */
 	// scroll to elelement
 	public void scrollToElement(By by) {
 		try {
@@ -119,7 +109,6 @@ public class ActionDriver {
 			wait.until(ExpectedConditions.elementToBeClickable(by));
 		} catch (Exception e) {
 			logger.error("element is not clickable:" + e.getMessage());
-			e.printStackTrace();
 		}
 	}
 
@@ -129,20 +118,73 @@ public class ActionDriver {
 			wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
 		} catch (Exception e) {
 			logger.error("element is not visible:" + e.getMessage());
-			e.printStackTrace();
 		}
 	}
 
 	// wait for page to load
-	public void waitforPageLoad(int timeOutinSec) {
+	public void waitForPageLoad(int timeOutInSec) {
 		try {
-			wait.withTimeout(Duration.ofSeconds(timeOutinSec)).until(webDriver -> ((JavascriptExecutor) webDriver)
+			wait.withTimeout(Duration.ofSeconds(timeOutInSec)).until(WebDriver -> ((JavascriptExecutor) WebDriver)
 					.executeScript("return document.readyState").equals("complete"));
-			logger.info("page loaded successfully... ");
+			logger.info("Page loaded successfully.");
 		} catch (Exception e) {
-			logger.error("Page did not load within :" + timeOutinSec + "seconds Exception: " + e.getMessage());
+			logger.error("Page did not load within " + timeOutInSec + " seconds. Exception: " + e.getMessage());
+		}
+	}
+
+	// Method to get the description of an element using By locator
+	public String getElementDescription(By locator) {
+		// Check for null driver or locator to avoid NullPointerException
+		if (driver == null) {
+			return "Driver is not initialized.";
+		}
+		if (locator == null) {
+			return "Locator is null.";
 		}
 
+		try {
+			// Find the element using the locator
+			WebElement element = driver.findElement(locator);
+
+			// Get element attributes
+			String name = element.getDomProperty("name");
+			String id = element.getDomProperty("id");
+			String text = element.getText();
+			String className = element.getDomProperty("class");
+			String placeholder = element.getDomProperty("placeholder");
+
+			// Return a description based on available attributes
+			if (isNotEmpty(name)) {
+				return "Element with name: " + name;
+			} else if (isNotEmpty(id)) {
+				return "Element with ID: " + id;
+			} else if (isNotEmpty(text)) {
+				return "Element with text: " + truncate(text, 50);
+			} else if (isNotEmpty(className)) {
+				return "Element with class: " + className;
+			} else if (isNotEmpty(placeholder)) {
+				return "Element with placeholder: " + placeholder;
+			} else {
+				return "Element located using: " + locator.toString();
+			}
+		} catch (Exception e) {
+			// Log exception for debugging
+			e.printStackTrace(); // Replace with a logger in a real-world scenario
+			return "Unable to describe element due to error: " + e.getMessage();
+		}
+	}
+
+	// Utility method to check if a string is not null or empty
+	private boolean isNotEmpty(String value) {
+		return value != null && !value.isEmpty();
+	}
+
+	// Utility method to truncate long strings
+	private String truncate(String value, int maxLength) {
+		if (value == null || value.length() <= maxLength) {
+			return value;
+		}
+		return value.substring(0, maxLength) + "...";
 	}
 
 }

@@ -10,7 +10,7 @@ public class HomePage {
 
 	// define locators using By class
 	private By adminTab = By.xpath("//span[text()='Admin']");
-	private By userIDButton = By.className("axd-userdropdown-name");
+	private By userIDButton = By.className("oxd-userdropdown-name");
 	private By logoutButton = By.xpath("//a[text()='Logout']");
 	private By orangeHRMlogo = By.xpath("//div[@class='oxd-brand-banner']//img");
 
