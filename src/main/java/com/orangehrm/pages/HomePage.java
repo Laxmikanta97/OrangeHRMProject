@@ -21,6 +21,7 @@ public class HomePage {
 
 	// Method to verify if admin page is visible
 	public boolean isAdminTabvisible() {
+		
 		return actionDriver.isDisplayed(adminTab);
 	}
 

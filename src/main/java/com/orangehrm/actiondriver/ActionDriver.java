@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.utilities.ExtentManager;
 
 public class ActionDriver {
 
@@ -31,8 +32,10 @@ public class ActionDriver {
 		try {
 			waitForElementToBeClickable(by);
 			driver.findElement(by).click();
+			ExtentManager.logStep("clicked an element-->" + elementDescription);
 			logger.info("clicked an element-->" + elementDescription);
 		} catch (Exception e) {
+			ExtentManager.logFailure(BaseClass.getDriver(), "unable to click element:", elementDescription);
 			logger.error("unable to click element" + e.getMessage());
 		}
 	}
@@ -68,9 +71,11 @@ public class ActionDriver {
 			String actualText = driver.findElement(by).getText();
 			if (expectedText.equals(actualText)) {
 				logger.info("text are Matching:" + actualText + "equls" + actualText);
+				ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "Compare Text", "Text Verified Successfully! "+actualText+ " equals "+expectedText);
 				return true;
 			} else {
 				logger.error("text are not Matching:" + actualText + "not equls" + actualText);
+				ExtentManager.logFailure(BaseClass.getDriver(), "Text Comparison Failed!", "Text Comparison Failed! "+actualText+ " not equals "+expectedText);
 				return false;
 			}
 		} catch (Exception e) {
@@ -84,9 +89,12 @@ public class ActionDriver {
 		try {
 			waitForElementToBeVisible(by);
 			logger.info("Element is displayed " + getElementDescription(by));
+			ExtentManager.logStep("Element is displayed: "+getElementDescription(by));
+			ExtentManager.logStepWithScreenshot(BaseClass.getDriver(), "Element is displayed: ", "Element is displayed: "+getElementDescription(by));
 			return driver.findElement(by).isDisplayed();
 		} catch (Exception e) {
 			logger.error("element is not displayed; " + e.getMessage());
+			ExtentManager.logFailure(BaseClass.getDriver(),"Element is not displayed: ","Elemenet is not displayed: "+getElementDescription(by));
 			return false;
 		}
 

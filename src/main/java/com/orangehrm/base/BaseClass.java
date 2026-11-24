@@ -16,13 +16,11 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.orangehrm.actiondriver.ActionDriver;
+import com.orangehrm.utilities.ExtentManager;
 import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 	protected static Properties prop;
-	// protected static WebDriver driver;
-	// private static ActionDriver actionDriver;
-
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
 
@@ -37,10 +35,12 @@ public class BaseClass {
 				System.getProperty("user.dir") + "/src/main/resources/config.properties");
 		prop.load(fis);
 		logger.info("config.properties file loaded");
+		//start the extent report
+		ExtentManager.getRepoerter();
 	}
 
 	@BeforeMethod
-	public void setup() throws IOException {
+	public synchronized void setup() throws IOException {
 		System.out.println("Setting up webDriver for:" + this.getClass().getSimpleName());
 		launchBrowser();
 		configureBrowser();
@@ -59,17 +59,20 @@ public class BaseClass {
 	}
 
 	// Intialise the webdriver based on browser defined in config.properties
-	private void launchBrowser() {
+	private synchronized void launchBrowser() {
 		String browser = prop.getProperty("browser");
 
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver.set(new ChromeDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("ChromeDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver.set(new FirefoxDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("FirefoxDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("edge")) {
 			driver.set(new EdgeDriver());
+			ExtentManager.registerDriver(getDriver());
 			logger.info("EdgeDriver Instance is created.");
 
 		} else {
@@ -97,7 +100,7 @@ public class BaseClass {
 	}
 
 	@AfterMethod
-	public void tearDown() {
+	public synchronized void tearDown() {
 		if (getDriver() != null) {
 			try {
 				getDriver().quit();
@@ -108,6 +111,7 @@ public class BaseClass {
 		logger.info("WebDriver instance is closed");
 		driver.remove();
 		actionDriver.remove();
+		ExtentManager.endTest();
 	}
 
 	// Getter method for webdriver

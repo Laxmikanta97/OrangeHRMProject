@@ -425,3 +425,285 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [bf66331a9f133cb437e4660b6fdee871, findElement {value=//p[text()='Invalid credentials'], using=xpath}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58864}, goog:processID: 20528, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58864/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: bf66331a9f133cb437e4660b6fdee871
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-5] ERROR BaseClass - This is a error message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-5] FATAL BaseClass - This is a fatal message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-24 17:07:15 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-24 17:07:23 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-24 17:07:23 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-24 17:07:45 [TestNG-test=OrangeHRMTest-5] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.name: username (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54249}, goog:processID: 23584, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54249/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3862c12b1b8b441d9b56d3847959aa9e
+2026-11-24 17:07:46 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.name: username (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54252}, goog:processID: 5204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54252/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3107aeeb026aed3482faa96e40903957
+2026-11-24 17:07:53 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.name: username (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, goog:processID: 7956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e50e18d33d955961b1c5eb7384b6d3
+2026-11-24 17:08:16 [TestNG-test=OrangeHRMTest-5] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.cssSelector: input[type='password'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54249}, goog:processID: 23584, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54249/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3862c12b1b8b441d9b56d3847959aa9e
+2026-11-24 17:08:16 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.cssSelector: input[type='password'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54252}, goog:processID: 5204, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54252/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3107aeeb026aed3482faa96e40903957
+2026-11-24 17:08:46 [TestNG-test=OrangeHRMTest-5] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.xpath: //div[@class='oxd-brand-banner']//img (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54249}, goog:processID: 23584, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54249/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3862c12b1b8b441d9b56d3847959aa9e
+2026-11-24 17:09:16 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - unable to compare texts:no such element: Unable to locate element: {"method":"xpath","selector":"//p[text()='Invalid credentials']"}
+  (Session info: chrome=157.0.8103.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3e50e18d33d955961b1c5eb7384b6d3, findElement {using=xpath, value=//p[text()='Invalid credentials']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, goog:processID: 7956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e50e18d33d955961b1c5eb7384b6d3
+2026-11-24 17:09:16 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.cssSelector: input[type='password'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, goog:processID: 7956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e50e18d33d955961b1c5eb7384b6d3
+2026-11-24 17:09:47 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element to no longer be visible: By.xpath: //span[text()='Admin'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 157.0.8103.79, chrome: {chromedriverVersion: 157.0.8103.78 (4b3d0dabb825..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, goog:processID: 7956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53725/devtoo..., se:cdpVersion: 157.0.8103.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3e50e18d33d955961b1c5eb7384b6d3
+2026-11-24 17:53:00 [main] ERROR BaseClass - This is a error message
+2026-11-24 17:53:00 [main] FATAL BaseClass - This is a fatal message
+2026-11-24 17:53:31 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57063}, goog:processID: 20436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57063/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c583124daee1538de265be741cd623ee
+2026-11-24 17:54:01 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57063}, goog:processID: 20436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57063/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c583124daee1538de265be741cd623ee
+2026-11-24 17:54:32 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //div[@class='oxd-brand-banner']//img to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57063}, goog:processID: 20436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57063/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c583124daee1538de265be741cd623ee
+2026-11-24 18:05:13 [main] ERROR BaseClass - This is a error message
+2026-11-24 18:05:13 [main] FATAL BaseClass - This is a fatal message
+2026-11-24 18:05:43 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62485}, goog:processID: 3644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a637642fb072a5eaf81461f400f5a1f
+2026-11-24 18:06:13 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62485}, goog:processID: 3644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a637642fb072a5eaf81461f400f5a1f
+2026-11-24 18:06:46 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //div[@class='oxd-brand-banner']//img to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62485}, goog:processID: 3644, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a637642fb072a5eaf81461f400f5a1f
+2026-11-24 18:29:23 [main] ERROR BaseClass - This is a error message
+2026-11-24 18:29:23 [main] FATAL BaseClass - This is a fatal message
+2026-11-24 18:29:53 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 158.0.4370.33, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:51560}, msedge: {msedgedriverVersion: 158.0.4370.33 (56b8f6918200..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51560/devtoo..., se:cdpVersion: 158.0.4370.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b28b67580a4f06cbbc7fbacfa0473242
+2026-11-24 18:30:24 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 158.0.4370.33, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:51560}, msedge: {msedgedriverVersion: 158.0.4370.33 (56b8f6918200..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51560/devtoo..., se:cdpVersion: 158.0.4370.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b28b67580a4f06cbbc7fbacfa0473242
+2026-11-24 18:30:55 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //div[@class='oxd-brand-banner']//img to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 158.0.4370.33, fedcm:accounts: true, goog:processID: 22960, ms:edgeOptions: {debuggerAddress: localhost:51560}, msedge: {msedgedriverVersion: 158.0.4370.33 (56b8f6918200..., userDataDir: C:\Users\hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51560/devtoo..., se:cdpVersion: 158.0.4370.33, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b28b67580a4f06cbbc7fbacfa0473242
+2026-11-24 22:51:32 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-24 22:51:32 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-24 22:51:33 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-24 22:51:33 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-24 22:51:33 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-24 22:51:33 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-24 22:51:44 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-24 22:51:44 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-24 22:52:02 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52262}, goog:processID: 24776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52262/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed26ca7060f1e5f2e376e56d9f198271
+2026-11-24 22:52:03 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60202}, goog:processID: 11060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60202/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2ba8b7a830f25cb3d9af86fa407797d
+2026-11-24 22:52:33 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52262}, goog:processID: 24776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52262/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed26ca7060f1e5f2e376e56d9f198271
+2026-11-24 22:52:34 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60202}, goog:processID: 11060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60202/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2ba8b7a830f25cb3d9af86fa407797d
+2026-11-24 22:53:04 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //div[@class='oxd-brand-banner']//img to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52262}, goog:processID: 24776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52262/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed26ca7060f1e5f2e376e56d9f198271
+2026-11-24 22:53:05 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //p[text()='Invalid credentials'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60202}, goog:processID: 11060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60202/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c2ba8b7a830f25cb3d9af86fa407797d
+2026-11-24 22:53:13 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-24 22:53:13 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-24 22:53:43 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52714}, goog:processID: 19304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52714/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7970fbb492166865aebe9dc08e738d50
+2026-11-24 22:54:14 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52714}, goog:processID: 19304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52714/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7970fbb492166865aebe9dc08e738d50
+2026-11-24 22:54:46 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //span[text()='Admin'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52714}, goog:processID: 19304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52714/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7970fbb492166865aebe9dc08e738d50
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-24 23:00:56 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-24 23:01:26 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56312}, goog:processID: 26292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56312/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1fdd26c2fc0b15625a537b6f6e8078d
+2026-11-24 23:01:26 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56313}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56313/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80d80b9f526acb28f95eccc7f0371886
+2026-11-24 23:01:57 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56313}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56313/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80d80b9f526acb28f95eccc7f0371886
+2026-11-24 23:01:57 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56312}, goog:processID: 26292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56312/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1fdd26c2fc0b15625a537b6f6e8078d
+2026-11-24 23:02:29 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //p[text()='Invalid credentials'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56313}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56313/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80d80b9f526acb28f95eccc7f0371886
+2026-11-24 23:02:29 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //div[@class='oxd-brand-banner']//img to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56312}, goog:processID: 26292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56312/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1fdd26c2fc0b15625a537b6f6e8078d
+2026-11-24 23:02:38 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-24 23:02:38 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-24 23:03:09 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.name: username to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60498}, goog:processID: 9188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60498/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2730e6d3fbc31846fcd489465d3213a8
+2026-11-24 23:03:39 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.cssSelector: input[type='password'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60498}, goog:processID: 9188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60498/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2730e6d3fbc31846fcd489465d3213a8
+2026-11-24 23:04:10 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for element found by By.xpath: //span[text()='Admin'] to become invisible
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.53.0', revision: '0501530 05015309ae5a7496b80e496f540d2ecf969532c7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60498}, goog:processID: 9188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60498/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2730e6d3fbc31846fcd489465d3213a8

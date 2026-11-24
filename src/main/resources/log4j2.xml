@@ -39,5 +39,11 @@
 			<appenderref ref="ErrorFileLogger" />
 		</logger>
 
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+			<AppenderRef ref="ErrorFileLogger" />
+		</Root>
+
 	</loggers>
 </configuration>
