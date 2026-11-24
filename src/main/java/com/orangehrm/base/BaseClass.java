@@ -20,8 +20,12 @@ import com.orangehrm.utilities.LoggerManager;
 
 public class BaseClass {
 	protected static Properties prop;
-	protected static WebDriver driver;
-	private static ActionDriver actionDriver;
+	// protected static WebDriver driver;
+	// private static ActionDriver actionDriver;
+
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	private static ThreadLocal<ActionDriver> actionDriver = new ThreadLocal<>();
+
 	public static final Logger logger = LoggerManager.getLogger(BaseClass.class);
 
 	// load the congif file
@@ -48,12 +52,10 @@ public class BaseClass {
 		logger.fatal("This is a fatal message");
 		logger.warn("This is a warm message");
 
-		// intialise the actiondriver only once
+		// initialize ActionDriver for the current thread
+		actionDriver.set(new ActionDriver(getDriver()));
+		logger.info("Action driver initialised for thread :" + Thread.currentThread().getId());
 
-		if (actionDriver == null) {
-			actionDriver = new ActionDriver(getDriver());
-			logger.info("ActionDriver instance is created.");
-		}
 	}
 
 	// Intialise the webdriver based on browser defined in config.properties
@@ -61,15 +63,15 @@ public class BaseClass {
 		String browser = prop.getProperty("browser");
 
 		if (browser.equalsIgnoreCase("chrome")) {
-			driver = new ChromeDriver();
+			driver.set(new ChromeDriver());
 			logger.info("ChromeDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			driver = new FirefoxDriver();
+			driver.set(new FirefoxDriver());
 			logger.info("FirefoxDriver Instance is created.");
 		} else if (browser.equalsIgnoreCase("edge")) {
-			driver = new EdgeDriver();
+			driver.set(new EdgeDriver());
 			logger.info("EdgeDriver Instance is created.");
-			
+
 		} else {
 			throw new IllegalArgumentException("Erro in browser config" + browser);
 		}
@@ -80,14 +82,14 @@ public class BaseClass {
 	private void configureBrowser() {
 		// Implicit wait
 		int implicitwait = Integer.parseInt(prop.getProperty("implicitwait"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitwait));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(implicitwait));
 
 		// Maximize windows
-		driver.manage().window().maximize();
+		getDriver().manage().window().maximize();
 
 		// Navigate to url
 		try {
-			driver.get(prop.getProperty("url"));
+			getDriver().get(prop.getProperty("url"));
 		} catch (Exception e) {
 
 			System.out.println("Failed to navigate to url:" + e.getMessage());
@@ -96,37 +98,37 @@ public class BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		if (driver != null) {
+		if (getDriver() != null) {
 			try {
-				driver.quit();
+				getDriver().quit();
 			} catch (Exception e) {
 				System.out.println("Unable to quit the driver" + e.getMessage());
 			}
 		}
 		logger.info("WebDriver instance is closed");
-		driver = null;
-		actionDriver = null;
+		driver.remove();
+		actionDriver.remove();
 	}
 
 	// Getter method for webdriver
 	public static WebDriver getDriver() {
-		if (driver == null) {
+		if (driver.get() == null) {
 			System.out.println("Webdriver is not intialized");
 			throw new IllegalStateException("webDriver is not initialised");
 		}
-		return driver;
+		return driver.get();
 	}
 
 	// Getter method for ActionDriver
 	public static ActionDriver getActionDriver() {
-		if (actionDriver == null) {
+		if (actionDriver.get() == null) {
 			System.out.println("actionDriver is not intialized");
 			throw new IllegalStateException("actionDriver is not initialised");
 		}
-		return actionDriver;
+		return actionDriver.get();
 	}
 
-	public void setDriver(WebDriver driver) {
+	public void setDriver(ThreadLocal<WebDriver> driver) {
 		this.driver = driver;
 	}
 
