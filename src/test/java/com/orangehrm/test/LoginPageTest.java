@@ -22,7 +22,7 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void verifyValidLogintest() {
-		ExtentManager.starttest("Valid login test");
+		//ExtentManager.starttest("Valid login test"); --This has been implemented in TestListener
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
 		loginPage.login("Admin", "admin123");
 		ExtentManager.logStep("Verifying Admin tab is visible or not");
@@ -35,7 +35,7 @@ public class LoginPageTest extends BaseClass {
 
 	@Test
 	public void inValidLoginTest() {
-		ExtentManager.starttest("InValid login test");
+		//ExtentManager.starttest("InValid login test"); --This has been implemented in TestListener
 		ExtentManager.logStep("Navigating to Login Page entering username and password");
 		loginPage.login("admin", "admin464");
 		String expectedErrorMsg = "Invalid credentials";

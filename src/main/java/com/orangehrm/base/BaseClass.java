@@ -35,8 +35,8 @@ public class BaseClass {
 				System.getProperty("user.dir") + "/src/main/resources/config.properties");
 		prop.load(fis);
 		logger.info("config.properties file loaded");
-		//start the extent report
-		ExtentManager.getRepoerter();
+		// start the extent report
+		// ExtentManager.getRepoerter(); --This has been implemented in TestListener
 	}
 
 	@BeforeMethod
@@ -111,7 +111,7 @@ public class BaseClass {
 		logger.info("WebDriver instance is closed");
 		driver.remove();
 		actionDriver.remove();
-		ExtentManager.endTest();
+		// ExtentManager.endTest(); --This has been implemented in TestListener
 	}
 
 	// Getter method for webdriver

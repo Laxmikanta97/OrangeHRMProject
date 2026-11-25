@@ -122,11 +122,11 @@ public class ActionDriver {
 
 	// wait for element to be visible
 	private void waitForElementToBeVisible(By by) {
-		try {
-			wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
-		} catch (Exception e) {
-			logger.error("element is not visible:" + e.getMessage());
-		}
+	    try {
+	        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+	    } catch (Exception e) {
+	        logger.error("element is not visible:" + e.getMessage());
+	    }
 	}
 
 	// wait for page to load
