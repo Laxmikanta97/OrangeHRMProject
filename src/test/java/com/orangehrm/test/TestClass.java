@@ -1,11 +1,13 @@
 package com.orangehrm.test;
 
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.orangehrm.base.BaseClass;
+import com.orangehrm.listeners.TestListener;
 import com.orangehrm.utilities.ExtentManager;
-
+@Listeners(TestListener.class)
 public class TestClass extends BaseClass {
 	@Test
 	public void testTest() {

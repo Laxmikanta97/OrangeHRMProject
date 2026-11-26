@@ -915,3 +915,204 @@ Session ID: 07f03c3a4919eda77b634c68117715d3
 2026-11-26 00:19:54 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
 2026-11-26 00:20:05 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
 2026-11-26 00:20:05 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:08:05 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:07 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:08:07 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:13 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:08:13 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:08:38 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49199}, goog:processID: 4796, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49199/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 005e7654c030a3d3d62bf147c310c917
+2026-11-26 12:08:44 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //span[text()='Admin'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52703}, goog:processID: 15524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52703/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae9064f12b1e88225ac6d86ae4b7594f
+2026-11-26 12:16:21 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 12:16:21 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 12:16:21 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-26 12:16:21 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-26 12:16:22 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:16:22 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:16:22 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:16:22 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:16:28 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:16:28 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:18:08 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:09 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 12:18:09 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:14 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:18:14 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:18:40 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61348}, goog:processID: 8060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61348/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0710d9c7fbdd9731585499637d31ec0
+2026-11-26 12:18:45 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //span[text()='Admin'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51845}, goog:processID: 17168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51845/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5927ff08722aa608c876eeef474f2380
+2026-11-26 12:22:41 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not displayed; no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}
+  (Session info: chrome=158.0.8127.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0710d9c7fbdd9731585499637d31ec0, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61348}, goog:processID: 8060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61348/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f0710d9c7fbdd9731585499637d31ec0
+2026-11-26 12:22:46 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not displayed; no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']"}
+  (Session info: chrome=158.0.8127.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5927ff08722aa608c876eeef474f2380, findElement {value=//span[text()='Admin'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51845}, goog:processID: 17168, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51845/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5927ff08722aa608c876eeef474f2380
+2026-11-26 12:23:17 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:23:17 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:23:22 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:23:22 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:31:32 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:31:32 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:31:36 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:31:36 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:19 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-26 12:32:19 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:20 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 12:32:20 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:20 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:32:20 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:21 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:32:21 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:26 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:32:26 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:32:52 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, goog:processID: 23544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e46445fa9d6fd0892b12dff05591783
+2026-11-26 12:32:57 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //span[text()='Admin'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58948}, goog:processID: 22100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58948/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e0ad943879cbe2b0d1aa1ea18782671
+2026-11-26 12:36:54 [TestNG-test=OrangeHRMTest-4] ERROR ActionDriver - element is not displayed; no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}
+  (Session info: chrome=158.0.8127.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8e46445fa9d6fd0892b12dff05591783, findElement {value=//div[@class='oxd-brand-banner']//img, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, goog:processID: 23544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e46445fa9d6fd0892b12dff05591783
+2026-11-26 12:36:59 [TestNG-test=OrangeHRMTest-3] ERROR ActionDriver - element is not displayed; no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Admin']"}
+  (Session info: chrome=158.0.8127.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e0ad943879cbe2b0d1aa1ea18782671, findElement {value=//span[text()='Admin'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58948}, goog:processID: 22100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58948/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e0ad943879cbe2b0d1aa1ea18782671
+2026-11-26 12:37:29 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:37:29 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:37:34 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:37:34 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:42:10 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:42:10 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:43:44 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:43:44 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:44:54 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:44:54 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:44:58 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:44:58 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:45:02 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:45:02 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:45:32 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:45:32 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:46:03 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52570}, goog:processID: 23072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52570/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3283518989cd3778168ac9df6393ef5b
+2026-11-26 12:47:17 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:47:17 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:47:22 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:47:22 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:47:30 [main] ERROR ActionDriver - element is not displayed; invalid session id
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3283518989cd3778168ac9df6393ef5b, findElement {using=xpath, value=//div[@class='oxd-brand-banner']//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52570}, goog:processID: 23072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52570/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3283518989cd3778168ac9df6393ef5b
+2026-11-26 12:49:57 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:49:57 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:50:28 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49651}, goog:processID: 12412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49651/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e73ccf153367dc0de624bf97a982d3a1
+2026-11-26 12:51:20 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:51:20 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:51:26 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:51:26 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:51:57 [main] ERROR ActionDriver - element is not visible:Expected condition failed: waiting for visibility of element found by By.xpath: //div[@class='oxd-brand-banner']//img, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-brand-banner']//img"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54139}, goog:processID: 9264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54139/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ecf1b4659a2bf83851322c0ae093d44a
+2026-11-26 12:52:24 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:52:24 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:52:32 [main] ERROR ActionDriver - element is not displayed; invalid session id
+Build info: version: '4.54.0', revision: 'f37502c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecf1b4659a2bf83851322c0ae093d44a, findElement {using=xpath, value=//div[@class='oxd-brand-banner']//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.89, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54139}, goog:processID: 9264, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54139/devtoo..., se:cdpVersion: 158.0.8127.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10...., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ecf1b4659a2bf83851322c0ae093d44a
+2026-11-26 12:52:55 [main] ERROR BaseClass - This is a error message
+2026-11-26 12:52:55 [main] FATAL BaseClass - This is a fatal message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-2] ERROR BaseClass - This is a error message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-2] FATAL BaseClass - This is a fatal message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-4] ERROR BaseClass - This is a error message
+2026-11-26 12:54:49 [TestNG-test=OrangeHRMTest-4] FATAL BaseClass - This is a fatal message
+2026-11-26 12:54:50 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:54:50 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 12:54:57 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
+2026-11-26 12:54:57 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
