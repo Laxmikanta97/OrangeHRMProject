@@ -6,21 +6,27 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.logging.log4j.Logger;
+
+import com.orangehrm.base.BaseClass;
+
 import java.sql.Statement;
 
 public class DBConnection {
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/orangehrm";
 	private static final String DB_USERNAME = "root";
 	private static final String DB_PASSWORD = "";
+	public static final Logger logger = BaseClass.logger;
 
 	public static Connection getDBConnection() {
-		System.out.println("Starting DB connection......");
+		logger.info("Starting DB connection......");
 		try {
 			Connection conn = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
-			System.out.println("DB connection successfull");
+			logger.info("DB connection successfull");
 			return conn;
 		} catch (SQLException e) {
-			System.out.println("DB connection failed");
+			logger.error("DB connection failed");
 			e.printStackTrace();
 			return null;
 		}
@@ -36,7 +42,7 @@ public class DBConnection {
 			Connection conn = getDBConnection();
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery(query);
-			System.out.println("Query executing:" + query);
+			logger.info("Query executing:" + query);
 
 			if (rs.next()) {
 				String firstName = rs.getString("emp_firstname");
@@ -46,15 +52,15 @@ public class DBConnection {
 				employeedetails.put("emp_firstname", firstName);
 				employeedetails.put("emp_middle_name", middleNmae);
 				employeedetails.put("emp_lastname", lastName);
-				System.out.println("Employee data fetched");
+				logger.info("Employee data fetched");
 			}
 
 			else {
-				System.out.println("No employee data found");
+				logger.error("No employee data found");
 			}
 
 		} catch (SQLException e) {
-			System.out.println("Error while fetching query");
+			logger.error("Error while fetching query");
 			e.printStackTrace();
 		}
 		return employeedetails;

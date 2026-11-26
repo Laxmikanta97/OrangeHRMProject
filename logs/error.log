@@ -1128,3 +1128,5 @@ Session ID: ecf1b4659a2bf83851322c0ae093d44a
 2026-11-26 19:29:29 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
 2026-11-26 19:30:59 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
 2026-11-26 19:30:59 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message

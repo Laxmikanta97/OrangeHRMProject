@@ -2438,3 +2438,34 @@ Session ID: ecf1b4659a2bf83851322c0ae093d44a
 2026-11-26 19:31:06 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Venk
 2026-11-26 19:31:06 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - text are Matching:VenkequlsVenk
 2026-11-26 19:31:10 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
+2026-11-26 20:00:45 [main] INFO  BaseClass - config.properties file loaded
+2026-11-26 20:00:49 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - ChromeDriver Instance is created.
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] TRACE BaseClass - This is a Trace message
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] DEBUG BaseClass - This is a debug message
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] WARN  BaseClass - This is a warm message
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance is created
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - Action driver initialised for thread :20
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - WebDriver Instance is created
+2026-11-26 20:00:52 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with name: username
+2026-11-26 20:00:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: username-->orangehrm_laxmikanta97
+2026-11-26 20:00:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with name: password
+2026-11-26 20:00:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with name: password-->Luvupk97@
+2026-11-26 20:00:53 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Login
+2026-11-26 20:00:54 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Element with text: Login
+2026-11-26 20:00:55 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: PIM
+2026-11-26 20:00:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Element with text: PIM
+2026-11-26 20:00:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2026-11-26 20:00:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Entered text on Element with placeholder: Type for hints...-->Karthick
+2026-11-26 20:00:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Search
+2026-11-26 20:00:57 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - clicked an element-->Element with text: Search
+2026-11-26 20:00:58 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Karthick
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  DBConnection - Starting DB connection......
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  DBConnection - DB connection successfull
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  DBConnection - Query executing:SELECT emp_firstname,emp_middle_name,emp_lastname FROM hs_hr_employee WHERE employee_id=2
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  DBConnection - Employee data fetched
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Karthick
+2026-11-26 20:00:59 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - text are Matching:KarthickequlsKarthick
+2026-11-26 20:01:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - Applied the border with color greento element Element with text: Venk
+2026-11-26 20:01:01 [TestNG-test=OrangeHRMTest-1] INFO  ActionDriver - text are Matching:VenkequlsVenk
+2026-11-26 20:01:03 [TestNG-test=OrangeHRMTest-1] INFO  BaseClass - WebDriver instance is closed
