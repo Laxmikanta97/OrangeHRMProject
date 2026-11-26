@@ -1116,3 +1116,15 @@ Session ID: ecf1b4659a2bf83851322c0ae093d44a
 2026-11-26 12:54:50 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
 2026-11-26 12:54:57 [TestNG-test=OrangeHRMTest-3] ERROR BaseClass - This is a error message
 2026-11-26 12:54:57 [TestNG-test=OrangeHRMTest-3] FATAL BaseClass - This is a fatal message
+2026-11-26 19:11:47 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 19:11:47 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 19:11:54 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - text are not Matching:Karthicknot equlsKarthick
+2026-11-26 19:13:56 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 19:13:56 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 19:14:02 [TestNG-test=OrangeHRMTest-1] ERROR ActionDriver - text are not Matching:Karthicknot equlsKarthick
+2026-11-26 19:20:42 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 19:20:42 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 19:29:29 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 19:29:29 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
+2026-11-26 19:30:59 [TestNG-test=OrangeHRMTest-1] ERROR BaseClass - This is a error message
+2026-11-26 19:30:59 [TestNG-test=OrangeHRMTest-1] FATAL BaseClass - This is a fatal message
